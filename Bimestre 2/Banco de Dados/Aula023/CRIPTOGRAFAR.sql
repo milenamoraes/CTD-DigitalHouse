@@ -1,0 +1,25 @@
+USE Projeto_Spotify;
+
+SELECT * FROM usuario;	
+WHERE
+	IdUsuario = 3;
+
+-- PROCEDURE PARA CRIPTOGRAFAR A SENHA DE UM USUÁRIO PASSADO POR PARAMETRO 
+DELIMITER $$
+CREATE PROCEDURE SP_CRIPTOGRAFA_SENHA (
+  IN paramIdUsuario INT
+  
+)
+BEGIN 
+	-- BLOCO SQL
+	UPDATE
+	   usuario
+	SET 
+	   senha = MD5(senha)
+	WHERE 
+	  IdUsuario = paramIdUsuario;
+END $$
+
+-- ID 3
+-- RAMIREZ&88
+CALL SP_CRIPTOGRAFA_SENHA(3);

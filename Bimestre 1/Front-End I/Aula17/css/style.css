@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 400px;
+  background-color: black;
+}
+
+.botao {
+  border: 3 px dashed white;
+  border-radius: 5px;
+  padding-top: 50px;
+  font-size: 100px;
+  background-color: thistle;
+  cursor: pointer;
+  /*transition: background-color 1s, border-color 2s;*/
+  transition-property: background-color, border-color, transform;
+  transition-duration: 1s, 2s, 0.5s;
+  transition-timing-function: ease-in-out;
+}
+
+.botao:hover {
+  background-color: darkgoldenrod;
+  border-color: darkorchid;
+  transform: translate(0, -50px) scale(1.2) rotate(360);
+}

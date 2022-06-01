@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(85,85,85);
+}
+
+.caixa {
+    height: 150px;
+    width: 150px;
+    background-color: bisque;
+    text-align: inline-block;
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(39, 39, 39);
+   
+}
+
+.c-01{
+   background-color: cadetblue;
+   position: absolute;
+   left:0;
+   
+    
+}
+.c-02 {
+    background-color: coral;
+    position: absolute;
+   right:0;
+}
+.c-03{
+    background-color: darkseagreen;
+    position: absolute;
+    bottom: 0%;
+    left:5.5%;
+}

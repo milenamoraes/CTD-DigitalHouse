@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap'); 
+
+html * {
+    color: black;
+    margin: 0;
+    padding: 0;
+    }
+ header{
+     display: block;
+ }
+
+#hisoria{
+    padding: 20px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    font-style: oblique;
+ }   
+#titulo{
+    color: black;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 200;
+    background-color:darkgray;
+    padding: 10px;
+    width:auto;
+}
+#subtitulo{
+    color:black;
+    text-align: center;
+    
+}
+#curiosidade{
+    padding: 30px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-style: oblique;
+}
+#corpo{
+    background-image: url('../img/cidade.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#rodape{
+    text-align: center;
+    padding: 20px;
+}
+.icones {
+    margin: 20px;
+    width: 70px;
+    height: 70px;
+}

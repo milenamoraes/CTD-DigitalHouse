@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+
+*{margin: 0; padding: 0;}
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+}
+
+html * {
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: block;
+}
+
+#titulo {
+  color: white;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-size: 14px;
+  font-weight: 5;
+  background-color: black;
+  padding: 0px;
+  width: auto;
+}
+ img {
+  width: 110px;
+  height: 110px;
+  object-fit: contain;
+}
+.div-menu{
+  display: flex;
+  align-items: center;
+}
+.nav-menu{
+background-color: black;
+
+}
+
+.menu{
+  list-style:none;
+   position: relative;
+   }
+.menu li{
+  position: relative;
+  float: left
+}
+.menu li a{
+  color: white; 
+  text-decoration:none; 
+  padding: 10px 15px; 
+  display: block; 
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.menu li a:hover{
+  background: white;
+  color: black;
+  -moz-box-shadow:0 3px 10px 0 yellow;
+  text-shadow: 30px 0px 30px rgba(109, 107, 107, 0.867);
+}
+.menu li ul{
+  position: absolute;
+  top: 25px;
+  left: 0;
+  background-color: white;
+  display: none;
+ 
+}
+.menu li:hover ul, .menu li.over ul{display:block;}
+.menu li ul li{
+ 
+  display: block;
+  width: 100px;
+}

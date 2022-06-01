@@ -1,0 +1,198 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 1500px;
+    box-sizing: border-box;
+  }
+  
+  body{
+      margin: 0px;
+      width: 1500px;
+      background-color:rgb(245, 243, 243);
+  }
+  
+  .upMenu{
+    font-size: 16px;
+    text-align: center;
+    height: 100px;
+    color:rgba(218, 218, 218, 0.966);
+    position: absolute;
+    top: 10px;
+    left: 0px;
+  }
+  
+  .menu{
+      background-color: #000;
+      height: 85px;
+      width: 1500px;
+      color:aliceblue;
+      margin-left: 0px;
+  }
+  
+  .nomeSite{
+      background-color:rgb(245, 243, 243);
+      padding: 17px; 
+      color: black;
+      position: absolute;
+      top: 40px;
+      left: 0px;
+  }
+  
+  .modapraia{
+    background-color: #000;
+    color:rgba(218, 218, 218, 0.685);
+    padding: 17px;
+    position: absolute;
+    top: 40px;
+    left: 100px;
+  }
+  
+  .logo{
+    background-image: url(https://logodownload.org/wp-content/uploads/2014/07/renner-logo-1-1.png);
+    z-index: 9;
+  }
+  
+  .cartaopresente{
+    background-color:rgb(245, 243, 243);
+    color: rgb(90, 90, 90);
+    height: 85px;
+    font-size: 12px;
+    position: absolute;
+    top: 100px;
+    left: 330px;
+    padding: 8px;
+  }
+  
+  .pagamento{
+    color: rgb(90, 90, 90);
+    height: 85px;
+    font-size: 12px;
+    position: absolute;
+    top: 100px;
+    left: 465px;
+    padding: 8px;
+  }
+  
+  .nossaslojas{
+    color: rgb(90, 90, 90);
+    height: 85px;
+    font-size: 12px;
+    position: absolute;
+    top: 100px;
+    left: 575px;
+    padding: 8px;
+  }
+  
+  .atendimento{
+    color: rgb(90, 90, 90);
+    height: 85px;
+    font-size: 12px;
+    position: absolute;
+    top: 100px;
+    left: 685px;
+    padding: 8px;
+  }
+  
+  .blog{
+    color: rgb(90, 90, 90);
+    height: 85px;
+    font-size: 12px;
+    position: absolute;
+    top: 100px;
+    left: 800px;
+    padding: 8px;
+  }
+  
+  .busca{
+    background-color: rgb(90, 90, 90);
+    border-radius: 30px;
+    height: 50px;
+    widows: 700px;
+    position: absolute;
+    top: 500px;
+    left: 200px;
+  }
+  
+  
+  .banner {
+     background-image: url(https://cdn-sites-images.46graus.com/files/photos/84b1eb71/69bd8947-7000-45b0-bdd7-4f5b9922703d/banner-1440x810.jpg);
+    height: 600px;
+    width: 1500px;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 200px;
+    
+  }
+  
+  .roupa1 {
+    background-image: url(https://img.lojasrenner.com.br/banner/01-home/20211105_HOME_CARD_PROMO_CONJUNTO20OFF_FEMININO_RESP2.jpg);
+    height: 410px;
+    width: 500px;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 775px;
+    background-size: cover;
+  }
+  
+  .escrito1 {
+    z-index: 10;
+    position: absolute;
+    top: 400px
+  }
+  
+  #comprar {
+    border: solid 2px black;
+    border-radius: 20px;
+    z-index: 10;
+    position: absolute;
+    top: 480px;
+    padding: 10px;
+    width: 80px;
+  }
+  
+  .roupa2 {
+    background-image: url(https://img.lojasrenner.com.br/banner/01-home/20211108_HOME_CARD_PROMO_PROGRESSIVO-ESPORTIVO_MASCULINO_RESP.jpg);
+    height: 410px;
+    width: 500px;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 775px;
+    left: 500px;
+    background-size: cover;
+  }
+  
+  .escrito2 {
+    z-index: 10;
+    position: absolute;
+    top: 400px
+  }
+  
+  .roupa3 {
+     background-image: url(https://img.lojasrenner.com.br/banner/01-home/20211101_HOME_CARD_PROMO_CARDIGA_FEMININO_RESP.jpg);
+    height: 410px;
+    width: 500px;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 775px;
+    left: 1000px;
+    background-size: cover;
+  }
+  
+  .escrito3 {
+    z-index: 10;
+    position: absolute;
+    top: 400px
+  }
+  
+  .whats{
+    position:fixed;
+    width:40px;
+    height:40px;
+    right:50px;
+    bottom:50px;
+    border-radius:100px;
+    background-image: url(https://cdn.icon-icons.com/icons2/2232/PNG/512/whatsapp_logo_icon_134602.png);
+    background-position: center;
+    background-size: cover;
+    z-index:10;
+  }

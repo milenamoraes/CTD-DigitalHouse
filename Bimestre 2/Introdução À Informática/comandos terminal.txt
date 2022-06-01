@@ -1,0 +1,17 @@
+- pwd
+- cd
+- ls
+- mkdir
+- cp
+- mv
+- rm
+- rmdir
+- cat
+- more
+- less
+- touch
+- head
+- tail
+- echo
+- top
+- man
